@@ -1,23 +1,4 @@
 
-
-# def direction(position, travel):
-#     if position == '1,1':
-#         print("you can travel North")
-    
-
-# position = '1,1'
-# #direction = 'NnSsWwEe'
-# direction_allowed = 'NnSsWwEe'
-
-# Input_direction = 'N'
-# while Input_direction[0] == direction_allowed:
-#     Input_direction = input("Direction:")
-
-
-# def You_can_travel(position):
-#     if position == 11:
-#         travel = 'Nn'
-#     return travel
        
 def direction_str(position):
     if position == '1,1' or position == '2,1':
@@ -88,11 +69,14 @@ west = 'W'
 east = 'E'
 
 position = '1,1'
-possible_direction = 'N'
-direction = 'N'
+possible_direction = ''
+direction_name = ''
+direction = ''
 while position != '3,1':
     possible_direction = str(direction_str(position))
+    if possible_direction == 'N'
     print('You can travel: ', possible_direction)
+
     direction = str(input('Direction: '))
     
     if possible_direction.find(direction) >= 0:
