@@ -1,4 +1,8 @@
 
-# Constants
-Range_start = 1
-Range_end = 10
+possible_direction = 'NEW'
+direction = 'N'
+
+if possible_direction.find(direction) >= 0:
+    print('nic')
+else:
+    print('Not a valid direction!')
